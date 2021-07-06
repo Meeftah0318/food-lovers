@@ -1,51 +1,27 @@
+/* global */
+
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgba(241, 241, 241, 0.404);
+    background-color: beige;
 }
 section{
     margin-top: 40px;
 }
-
 .flex-container {
     display: flex;
-}
-
-.top-banner{
     width: 90%;
     padding-left: 5%;
 }
-
-h1{
-    font-size: 40px;
-    color: rgba(94, 88, 88, 0.884);
-}
-.title-text{
-    padding-top: 170px;
-    font-weight: 700;
-}
-
-p{
-    margin-bottom: 50px;
-    line-height: 1.5;
-}
-
-.focus-color{
-    color: orangered;
-}
-
 .half-width{
     width: 50%;
     padding-left: 5%;
 }
-
-.abt-img{
-    height: 520px;
-    padding-bottom: 0px;
-    bottom: 0;
+.half-width p{
+    margin-bottom: 50px;
+    line-height: 1.5;
 }
-
 .button{
     text-decoration: none;
     font-size: 20px;
@@ -55,7 +31,21 @@ p{
     border-radius: 30px;
     letter-spacing: 1px;
 }
+h1{
+    font-size: 40px;
+    color: rgba(94, 88, 88, 0.884);
+}
 
+/* top banner */
+.title-text{
+    padding-top: 170px;
+    font-weight: 700;
+}
+.focus-color{
+    color: orangered;
+}
+
+/* about us */
 .about-us{
     background-image: url(images/about-bg.png);
     background-repeat: no-repeat;
@@ -64,29 +54,78 @@ p{
 }
 
 .about-flex {
-    display: flex;
     width: 80%;
     padding: 0 10%;
+}
+#abt-img{
+    width: 70%;
 }
 
 .about-text{
     margin-top: 40px;
+    margin-right: 30px;
+    text-align: justify;
 }
 
-.my-recipe{
-    width: 80%;
-    padding: 0 10%;
-}
+/* recipies */
+
 .card{
-    width: 33%;
-    padding: 30px 5%;
+    width: 33.3%;
+    margin: 25px;
+    padding: 20px 20px 0;  
+    border-radius: 20px; 
+    background-color: white;
+    box-shadow: 10px 10px 20px rgb(236, 236, 236);
 }
 
 .card img{
-    width: 250px;
-    height: 200px;
-    border-radius: 10px;
-    padding: 10px;
-
+    width: 100%;
+    height: 55%;
+    border-radius:20px;
 }
 
+.card p {
+    line-height: 1.5;
+}
+
+/* showcase */
+
+.showcase {
+    margin: 80px 0;
+}
+
+.show {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    }
+
+.showcase-items{
+    width: 33%;
+    padding: 50px 60px;
+    line-height: 1.5;
+}
+
+.number {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* footer */
+
+footer {
+    background-color: #161616;
+    text-align: center;
+    padding: 20px 0 90px;
+}
+
+footer h1 {
+    font-size: 30px;
+    line-height: 2;
+}
+
+footer p{
+    color: white;
+    font-size: 12px;
+}
