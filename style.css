@@ -68,6 +68,11 @@ h1{
 }
 
 /* recipies */
+.recipe-head {
+    width: 50%;
+    padding-left: 25%;
+    text-align: center;
+}
 
 .card{
     width: 33.3%;
